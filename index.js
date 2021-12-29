@@ -5,7 +5,7 @@ const config = require("./config.json");
 const BotCommandFactory = require("./command-factory/bot-command-factory");
 
 const app = express();
-const port = 3001;
+const port = 3000;
 
 const bot = new Discord.Client({ intents: ["GUILDS", "GUILD_MESSAGES"] });
 
